@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "377370863749",
+    "project_id": "serviceon-7fa48",
+    "storage_bucket": "serviceon-7fa48.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:377370863749:android:2c2488d98262567c2321ec",
+        "android_client_info": {
+          "package_name": "com.example.labtest1.feeskeeper.serviceondrive"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "377370863749-7rf8qft5sdb056lhqmilg7af4895it1b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDrBpNwIFfERjEFHMCPuqlgd25LxaLapiQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "377370863749-7rf8qft5sdb056lhqmilg7af4895it1b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:377370863749:android:d26cda8be80f29692321ec",
+        "android_client_info": {
+          "package_name": "com.lambtonserviceon"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "377370863749-7rf8qft5sdb056lhqmilg7af4895it1b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDrBpNwIFfERjEFHMCPuqlgd25LxaLapiQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "377370863749-7rf8qft5sdb056lhqmilg7af4895it1b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

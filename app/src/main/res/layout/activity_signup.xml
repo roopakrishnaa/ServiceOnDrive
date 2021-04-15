@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignupActivity">
+
+
+
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="141dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="124dp"
+            android:layout_marginTop="40dp"
+            android:text="Register User !!"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/firstname"
+            android:layout_width="186dp"
+            android:layout_height="42dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="40dp"
+            android:ems="10"
+            android:hint="Enter your First Name"
+            android:inputType="textPersonName"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView13" />
+
+        <EditText
+            android:id="@+id/lastname"
+            android:layout_width="177dp"
+            android:layout_height="42dp"
+            android:layout_marginEnd="16dp"
+            android:ems="10"
+            android:hint="Enter your last Name"
+            android:inputType="textPersonName"
+            app:layout_constraintBaseline_toBaselineOf="@+id/firstname"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <EditText
+            android:id="@+id/mail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="96dp"
+            android:layout_marginTop="20dp"
+            android:ems="10"
+            android:hint="Enter your Email"
+            android:inputType="textEmailAddress"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/lastname" />
+
+        <ImageView
+            android:id="@+id/Dispic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="136dp"
+            android:layout_marginTop="96dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/mail"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <Button
+            android:id="@+id/SetImg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="112dp"
+            android:layout_marginTop="32dp"
+            android:text="change or add image"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/Dispic" />
+
+        <TextView
+            android:id="@+id/login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="108dp"
+            android:text="Alreday have an account ? Login  "
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/SetImg" />
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="96dp"
+            android:layout_marginTop="8dp"
+            android:ems="10"
+            android:hint="Enter password"
+            android:inputType="textPassword"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/mail" />
+
+        <Button
+            android:id="@+id/Registerbtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="160dp"
+            android:layout_marginTop="24dp"
+            android:text="Register"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/SetImg" />
+
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
